@@ -1,0 +1,66 @@
+.app-header {
+  height: 60px;
+  position: relative;
+  z-index: 10;
+}
+
+
+
+.main_header{
+  background-color: #699EEE;
+
+}
+
+
+.main_header :hover { text-decoration: none; }
+
+.header_title{
+  text-decoration: none;
+}
+
+
+.app-title {
+  line-height: 60px;
+  vertical-align: middle;
+  font-size: 1.35em;
+}
+
+.app-branding {
+  float: left;
+}
+
+.app-options {
+  float: right;
+}
+
+.app-nav ul {
+  list-style-position: none;
+  margin: 0;
+  padding: 0;
+}
+
+.app-nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  font-family: "Arial";
+}
+
+.app-nav ul li a {
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+  padding: 0 9px;
+  font-size: 18px;
+  transition: all 0.1s ease-in-out;
+  font-weight: 500;
+}
+
+
+
+.app-nav ul li a:hover {
+  color: rgb(221, 221, 221);
+}
+
+
+.app-nav ul li a.active {
+  color: #bbe3ff;
+}
